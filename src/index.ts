@@ -10,3 +10,16 @@
 import { printName } from "./util";
 
 printName('typescirpt')
+
+// 기본 타입 (string, number, boolean, null, any) 실습 코드 작성
+
+const oz_string: string = "안녕하세요";
+const oz_number: number = 8;
+const oz_boolean: boolean = true;
+const oz_null: null = null;
+const oz_any: any = 8 + "기 화이팅~"
+
+printName(`${oz_string}. ${oz_number}기 이희정입니다.`)
+printName(`현재 수료상태는 ${oz_boolean}입니다.`)
+printName(`TypeScript를 학습 중이며, 제 뇌는 ${oz_null}값 입니다.`)
+printName(`${oz_any}.`)
